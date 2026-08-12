@@ -39,11 +39,11 @@ jobs:
         uses: getzola/github-pages@066755243e69f508fd1a74739fbf1a65f656c790
         with:
           zola_version: v0.22.0
-          working_directory: .
-          output_dir: public
-          build_flags: --config zola.toml
-          check_links: false
-          check_flags: --drafts
+          # working_directory: .
+          # output_dir: public
+          # build_flags: --config zola.toml
+          # check_links: false
+          # check_flags: --drafts
 
   deploy:
     runs-on: ubuntu-latest
