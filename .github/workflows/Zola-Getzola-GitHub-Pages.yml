@@ -17,6 +17,7 @@ on:
     branches:
       # - master
       - main
+  workflow_dispath:
 
 permissions:
   contents: read
